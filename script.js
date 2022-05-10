@@ -30,6 +30,7 @@ async function sendEmail() {
       message: req.body.message
     }
   });
+  console.log(info);
 }
 
 let apiQuotes = [];
