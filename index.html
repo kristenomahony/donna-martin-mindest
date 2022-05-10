@@ -129,13 +129,21 @@
               name="message"
               id="message"
               placeholder="Your message...."
-              rows="5"
+              rows="4"
               required
               minlength="3"
               maxlength="100"
             />
           </div>
-          <button class="m-3" type="submit" id="send-email">Send</button>
+          <button
+            onclick="sendMail()"
+            type="submit"
+            value="submit"
+            class="m-3"
+            id="send-email"
+          >
+            Send
+          </button>
         </form>
       </div>
     </div>
