@@ -55,5 +55,3 @@ async function getQuotes() {
 // sendBtn.addEventListener("onclick", sendMail);
 // on load
 getQuotes();
-
-// module.exports = router;

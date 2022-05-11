@@ -79,6 +79,10 @@ h1 {
   border-radius: 10px;
   box-shadow: 0 5px 10px 0px;
   background-color: #f5f5f5;
+  text-align: center;
+
+  justify-content: center;
+  align-items: center;
 }
 .about {
   background-color: #404040;
@@ -88,6 +92,8 @@ h1 {
   border-radius: 10px;
   background-color: white;
   margin-bottom: 10px;
+  width: 280px;
+  height: 40px;
 }
 .book-button a {
   color: black;
@@ -96,6 +102,10 @@ form button,
 form input {
   border-radius: 10px;
   margin-left: 10px;
+}
+form button {
+  width: 150px;
+  height: 40px;
 }
 .card button {
   background: #ffafbd; /* fallback for old browsers */
