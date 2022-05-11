@@ -1,8 +1,9 @@
 @import url("https://fonts.googleapis.com/css2?family=Square+Peg&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Open+Sans&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Prompt:wght@600&display=swap");
 
 body {
-  font-family: "Open Sans", sans-serif;
+  font-family: "Prompt", sans-serif;
 
   font-size: 20px;
   background: #ffafbd; /* fallback for old browsers */
@@ -69,9 +70,15 @@ h1 {
   justify-content: center;
   align-items: center;
 }
+.profile {
+  width: 120px;
+  height: 100px;
+  border-radius: 50%;
+  margin-bottom: 5px;
+}
 .form-group {
-  text-align: right;
-  align-items: flex-start;
+  text-align: center;
+  align-items: center;
 }
 .card {
   width: 90%;
@@ -166,9 +173,11 @@ p.thought:after {
   border-radius: 18px;
 }
 .form {
-  font-family: "Open Sans", sans-serif;
-  width: 90%;
+  font-family: "Prompt", sans-serif;
+  font-size: 20px;
+  width: 80%;
 }
+
 .footer {
   height: 200px;
   background-color: #404040;
@@ -178,6 +187,13 @@ p.thought:after {
   flex-wrap: wrap;
   justify-content: center;
   align-items: center;
+  color: white;
+}
+ul {
+  list-style-type: none;
+}
+.legal {
+  width: 400vw;
 }
 /* Media Query: Large Smartphone (Vertical) */
 @media screen and (max-width: 600px) {
