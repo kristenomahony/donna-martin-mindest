@@ -189,9 +189,14 @@ p.thought:after {
   align-items: center;
   color: white;
 }
-ul {
-  list-style-type: none;
+
+li {
+  display: inline;
 }
+li + li:before {
+  content: " · ";
+}
+
 .legal {
   width: 400vw;
 }
