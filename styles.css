@@ -9,6 +9,10 @@ body {
   background-image: url(https://images.unsplash.com/photo-1604147706283-d7119b5b822c?crop=entropy&cs=tinysrgb&fm=jpg&ixlib=rb-1.2.1&q=80&raw_url=true&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=687);
   opacity: 90%;
 }
+.navbar {
+  position: sticky;
+  top: 0;
+}
 button {
   font-size: 15px;
 }
@@ -53,6 +57,7 @@ h1 {
   align-items: center;
   width: 100%;
 }
+
 .profile {
   width: 120px;
   height: 100px;
