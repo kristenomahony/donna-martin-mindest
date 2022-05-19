@@ -6,17 +6,7 @@ body {
   font-family: "Prompt", sans-serif;
 
   font-size: 20px;
-  background: #e6dada; /* fallback for old browsers */
-  background: -webkit-linear-gradient(
-    to top,
-    #274046,
-    #e6dada
-  ); /* Chrome 10-25, Safari 5.1-6 */
-  background: linear-gradient(
-    to top,
-    #274046,
-    #e6dada
-  ); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+  background-image: url(https://images.unsplash.com/photo-1509624776920-0fac24a9dfda?crop=entropy&cs=tinysrgb&fm=jpg&ixlib=rb-1.2.1&q=60&raw_url=true&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MTN8fHBhaW50fGVufDB8fDB8fA%3D%3D&auto=format&fit=crop&w=800);
 }
 button {
   font-size: 15px;
@@ -30,31 +20,21 @@ i {
 }
 a {
   text-decoration: none;
-  color: white;
+  color: #5c5a58;
 }
 a:hover {
   color: white;
 }
 
 .navbar {
-  background: #e6dada; /* fallback for old browsers */
-  background: -webkit-linear-gradient(
-    to top,
-    #274046,
-    #e6dada
-  ); /* Chrome 10-25, Safari 5.1-6 */
-  background: linear-gradient(
-    to top,
-    #274046,
-    #e6dada
-  ); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+  background: #e8e4df;
 }
 .main {
   align-items: center;
 }
 .main img {
   width: 100%;
-  height: 650px;
+  height: 20%;
   opacity: 90%;
 }
 h1 {
@@ -71,6 +51,7 @@ h1 {
   flex-wrap: wrap;
   justify-content: center;
   align-items: center;
+  width: 100%;
 }
 .profile {
   width: 120px;
@@ -93,9 +74,27 @@ h1 {
   justify-content: center;
   align-items: center;
 }
+.services {
+  border: white 2px solid;
+  border-radius: 10px;
+  box-shadow: 0 5px 10px 0px;
+  display: inline-block;
+  margin: 10px;
+  padding: 5px;
+  background-color: white;
+}
+.services > p {
+  font-size: 15px;
+  font-family: sans-serif;
+}
+.programs {
+  background-image: url("https://images.unsplash.com/photo-1509624776920-0fac24a9dfda?crop=entropy&cs=tinysrgb&fm=jpg&ixlib=rb-1.2.1&q=60&raw_url=true&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MTN8fHBhaW50fGVufDB8fDB8fA%3D%3D&auto=format&fit=crop&w=800");
+  margin-bottom: 30px;
+}
 .about {
   background-color: #404040;
   color: white;
+  opacity: 80%;
 }
 .book-button button {
   border-radius: 10px;
@@ -111,23 +110,17 @@ form button,
 form input {
   border-radius: 10px;
   margin-left: 10px;
+  width: 200px;
 }
 form button {
   width: 150px;
   height: 40px;
 }
 .card button {
-  background: #e6dada; /* fallback for old browsers */
-  background: -webkit-linear-gradient(
-    to top,
-    #274046,
-    #e6dada
-  ); /* Chrome 10-25, Safari 5.1-6 */
-  background: linear-gradient(
-    to top,
-    #274046,
-    #e6dada
-  ); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+  background: #e8e4df;
+}
+button:hover {
+  opacity: 70%;
 }
 p.bubble {
   position: relative;
@@ -178,10 +171,26 @@ p.thought:after {
   -moz-border-radius: 18px;
   border-radius: 18px;
 }
+.testimonials {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+}
+
+.testimonial {
+  width: 250px;
+  height: 200px;
+  border-radius: 80%;
+  font-size: 15px;
+  margin: 20px;
+  padding: 30px;
+}
 .form {
   font-family: "Prompt", sans-serif;
   font-size: 20px;
-  width: 80%;
+  width: 90%;
 }
 
 .footer {
@@ -195,7 +204,9 @@ p.thought:after {
   align-items: center;
   color: white;
 }
-
+.social-media-footer {
+  color: white;
+}
 li {
   display: inline;
 }
@@ -206,10 +217,15 @@ li + li:before {
 .legal {
   width: 400vw;
 }
+
 /* Media Query: Large Smartphone (Vertical) */
 @media screen and (max-width: 600px) {
   body {
     overflow-y: auto;
     font-size: 15px;
+  }
+  ,
+  form {
+    width: 100%;
   }
 }
