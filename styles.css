@@ -121,6 +121,7 @@ form input {
 form button {
   width: 150px;
   height: 40px;
+  color: black;
 }
 .card button {
   background: #e8e4df;
