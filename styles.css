@@ -1,9 +1,7 @@
-@import url("https://fonts.googleapis.com/css2?family=Square+Peg&display=swap");
-@import url("https://fonts.googleapis.com/css2?family=Open+Sans&display=swap");
-@import url("https://fonts.googleapis.com/css2?family=Prompt:wght@600&display=swap");
-
+@import url("https://fonts.googleapis.com/css2?family=Cinzel:wght@600&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Dancing+Script:wght@600&display=swap");
 body {
-  font-family: "Prompt", sans-serif;
+  font-family: "Cinzel", sans-serif;
 
   font-size: 20px;
   background-image: url(https://images.unsplash.com/photo-1604147706283-d7119b5b822c?crop=entropy&cs=tinysrgb&fm=jpg&ixlib=rb-1.2.1&q=80&raw_url=true&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=687);
@@ -12,6 +10,7 @@ body {
 .navbar {
   position: sticky;
   top: 0;
+  background: white;
 }
 button {
   font-size: 15px;
@@ -28,11 +27,7 @@ a {
   color: #5c5a58;
 }
 a:hover {
-  color: white;
-}
-
-.navbar {
-  background: #e8e4df;
+  color: pink;
 }
 .main {
   align-items: center;
@@ -44,6 +39,7 @@ a:hover {
 h1 {
   font-weight: bold;
   margin: 10px;
+  font-family: Dancing Script, serif;
 }
 .container,
 .contact,
@@ -90,12 +86,20 @@ h1 {
 }
 .services > p {
   font-size: 15px;
-  font-family: sans-serif;
+  font-family: "Cinzel", sans-serif;
 }
-.programs {
-  background-image: url("https://images.unsplash.com/photo-1604147706283-d7119b5b822c?crop=entropy&cs=tinysrgb&fm=jpg&ixlib=rb-1.2.1&q=80&raw_url=true&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=687");
-
+.the-good-life {
+  background-image: url("peach-img.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  display: flex;
+  flex-direction: row;
   margin-bottom: 30px;
+  padding-bottom: 540px;
+  padding-top: 45px;
+  width: 100vw;
+  opacity: 90%;
 }
 .about {
   background-color: #404040;
@@ -189,13 +193,13 @@ p.thought:after {
 .testimonial {
   width: 250px;
   height: 200px;
-  border-radius: 80%;
+  border-radius: 5px;
   font-size: 15px;
   margin: 20px;
   padding: 30px;
 }
 .form {
-  font-family: "Prompt", sans-serif;
+  font-family: "Cinzel", sans-serif;
   font-size: 20px;
   width: 90%;
 }
@@ -234,5 +238,9 @@ li + li:before {
   ,
   form {
     width: 100%;
+  }
+  ,
+  .the-good-life {
+    width: 100vw;
   }
 }
