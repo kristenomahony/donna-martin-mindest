@@ -3,7 +3,7 @@
 body {
   font-family: "Cinzel", sans-serif;
 
-  font-size: 20px;
+  font-size: 18px;
   background-image: url(https://images.unsplash.com/photo-1604147706283-d7119b5b822c?crop=entropy&cs=tinysrgb&fm=jpg&ixlib=rb-1.2.1&q=80&raw_url=true&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=687);
   opacity: 90%;
 }
@@ -89,31 +89,41 @@ h1 {
   font-family: "Cinzel", sans-serif;
 }
 .the-good-life {
-  background-image: url("peach-img.jpg");
-  background-position: center;
-  background-repeat: no-repeat;
-  background-size: cover;
-  display: flex;
-  flex-direction: row;
-  margin-bottom: 30px;
-  padding-bottom: 540px;
-  padding-top: 45px;
+  background-image: url("peach-image.jpg");
+  background-position: top;
+  /* background-repeat: no-repeat; */
+  object-fit: contain;
+  padding-top: 20px;
+  background-size: contain;
+
   width: 100vw;
+  height: 72vh;
   opacity: 90%;
 }
+
 .about {
   background-color: #404040;
   color: white;
   opacity: 80%;
 }
+.goodlifebtn button {
+  border-radius: 10px;
+  background-color: white;
+  margin-bottom: 10px;
+  margin-top: 110px;
+  width: 150px;
+  height: 30px;
+}
 .book-button button {
   border-radius: 10px;
   background-color: white;
   margin-bottom: 10px;
-  width: 280px;
-  height: 40px;
+  margin-top: 20px;
+  width: 150px;
+  height: 30px;
 }
-.book-button a {
+.book-button a,
+.goodlifebtn a {
   color: black;
 }
 form button,
@@ -127,6 +137,7 @@ form button {
   height: 40px;
   color: black;
 }
+
 .card button {
   background: #e8e4df;
 }
@@ -151,6 +162,7 @@ p.thought {
   width: 300px;
   border-radius: 200px;
   padding: 30px;
+  font-size: 15px;
 }
 
 p.bubble:before,
@@ -198,6 +210,9 @@ p.thought:after {
   margin: 20px;
   padding: 30px;
 }
+span {
+  font-family: "Dancing Script", serif;
+}
 .form {
   font-family: "Cinzel", sans-serif;
   font-size: 20px;
@@ -218,6 +233,9 @@ p.thought:after {
 .social-media-footer {
   color: white;
 }
+.social-media-footer:hover {
+  color: pink;
+}
 li {
   display: inline;
 }
@@ -230,17 +248,9 @@ li + li:before {
 }
 
 /* Media Query: Large Smartphone (Vertical) */
-@media screen and (max-width: 600px) {
+@media screen and (max-width: 376px) {
   body {
     overflow-y: auto;
-    font-size: 15px;
-  }
-  ,
-  form {
-    width: 100%;
-  }
-  ,
-  .the-good-life {
-    width: 100vw;
+    font-size: 13px;
   }
 }
