@@ -121,6 +121,7 @@ ul {
   margin-top: 110px;
   width: 150px;
   height: 30px;
+  border: 2px black solid;
 }
 .book-button button {
   border-radius: 10px;
@@ -129,6 +130,7 @@ ul {
   margin-top: 20px;
   width: 150px;
   height: 30px;
+  border: 2px black solid;
 }
 .book-button a,
 .goodlifebtn a {
@@ -144,10 +146,12 @@ form button {
   width: 150px;
   height: 40px;
   color: black;
+  border: 2px black solid;
 }
 
 .card button {
   background: #e8e4df;
+  border: 2px black solid;
 }
 button:hover {
   opacity: 70%;
