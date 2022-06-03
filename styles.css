@@ -203,8 +203,6 @@ p.thought:after {
 }
 
 .testimonial {
-  width: 250px;
-  height: 200px;
   border-radius: 5px;
   font-size: 15px;
   margin: 20px;
