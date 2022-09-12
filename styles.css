@@ -209,27 +209,24 @@ p.thought:after {
   -moz-border-radius: 18px;
   border-radius: 18px;
 }
-.testimonials {
-  display: inline-flex;
-}
 
 .testimonial {
   border-radius: 5px;
   font-size: 18px;
-  margin: 20px;
+  width: 80vw;
   padding: 30px;
+  margin-left: 80px;
 }
 span {
   font-family: "Dancing Script", serif;
   font-size: 20px;
 }
-.contact {
-  width: 80vw;
-  margin-left: 10vw;
-}
+
 .form {
   font-family: "Joan", sans-serif;
   font-size: 14px;
+  margin-left: 80px;
+  width: 80vw;
 }
 
 .footer {
