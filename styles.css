@@ -5,14 +5,14 @@
 
 body {
   font-family: "Joan", sans-serif;
-
-  background-image: url(https://images.unsplash.com/photo-1604147706283-d7119b5b822c?crop=entropy&cs=tinysrgb&fm=jpg&ixlib=rb-1.2.1&q=80&raw_url=true&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=687);
-  opacity: 90%;
 }
 .navbar {
   position: sticky;
   top: 0;
   background: white;
+}
+.tag-line {
+  font-size: 20px;
 }
 button {
   font-size: 15px;
@@ -44,9 +44,7 @@ h1 {
   font-family: Dancing Script, serif;
 }
 .container,
-.contact,
-.quote-container,
-.about-section {
+.quote-container {
   text-align: center;
   display: flex;
   flex-direction: row;
@@ -56,7 +54,13 @@ h1 {
   width: 100%;
   font-size: 18px;
 }
-
+.about-section {
+  display: inline-flex;
+  margin: 50px;
+  background-color: #404040;
+  color: white;
+  border-radius: 10px;
+}
 .profile {
   width: 300px;
   height: 400px;
@@ -111,8 +115,8 @@ ul {
   align-items: center;
 }
 .about {
-  background-color: #404040;
-  color: white;
+  font-size: 20px;
+  width: 50vw;
 }
 .goodlifebtn button {
   border-radius: 10px;
@@ -140,10 +144,10 @@ form button,
 form input {
   border-radius: 10px;
   margin-left: 10px;
-  width: 200px;
+  width: 30vw;
 }
 form button {
-  width: 150px;
+  width: 20vw;
   height: 40px;
   color: black;
   border: 2px black solid;
@@ -207,11 +211,7 @@ p.thought:after {
   border-radius: 18px;
 }
 .testimonials {
-  display: flex;
-  flex-direction: row;
-  flex-wrap: wrap;
-  justify-content: center;
-  align-items: center;
+  display: inline-flex;
 }
 
 .testimonial {
@@ -224,10 +224,14 @@ span {
   font-family: "Dancing Script", serif;
   font-size: 20px;
 }
+.contact {
+  width: 40vw;
+  margin-left: 32vw;
+}
 .form {
   font-family: "Joan", sans-serif;
   font-size: 14px;
-  width: 90%;
+  width: 35vw;
 }
 
 .footer {
@@ -259,9 +263,15 @@ li + li:before {
 }
 
 /* Media Query: Large Smartphone (Vertical) */
-@media screen and (max-width: 376px) {
+@media all (max-width: 500px) {
   body {
     overflow-y: auto;
     font-size: 13px;
+    background-color: blue;
+  }
+  ,
+  .about-image,
+  .testimonial {
+    display: block;
   }
 }
