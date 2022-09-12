@@ -224,13 +224,12 @@ span {
   font-size: 20px;
 }
 .contact {
-  width: 40vw;
-  margin-left: 32vw;
+  width: 80vw;
+  margin-left: 10vw;
 }
 .form {
   font-family: "Joan", sans-serif;
   font-size: 14px;
-  width: 35vw;
 }
 
 .footer {
