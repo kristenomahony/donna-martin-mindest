@@ -5,6 +5,7 @@
 
 body {
   font-family: "Joan", sans-serif;
+  margin: auto;
 }
 .navbar {
   position: sticky;
